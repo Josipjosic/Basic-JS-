@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS zadatak</title>
+</head>
+<body>
+	<p id="zad51"></p> <!--za zadatak 51-->
+	<p id="misc"></p>
+	<script type="text/javascript">
+		/*1*/
+			var a = "Dobro";
+			var b = "vecer";
+			var c = a+" "+b;
+			//document.getElementById("misc").innerHTML = c;
+		/*2*/
+			//document.write("Marko je išao u školu.<br>");
+			//document.write("Iva je bila u kazalištu.");
+		/*3*/
+			//document.write("Marko je išao u školu. \t Iva je bila u kazalištu.");
+		/*4+5*/
+			/*document.write("Marko: Danas sam dobio jedinicu iz matematike!<br>");
+			document.write("Iva:   Pa što je bilo!?<br>");
+			document.write("Marko: Uciteljica je rekla da napišem '' 1/2 '' <br>");
+			document.write("Iva:   I što si napis'o?<br>");
+			document.write("Marko: ''1/2 '' na što se uciteljica razbjesnila");
+			var a = "Marko: Danas sam dobio jedinicu iz matematike!";
+			var b = "Iva:   Pa što je bilo!?";
+			var c = "Marko: Uciteljica je rekla da napišem '' 1/2 ''";
+			var d = "Iva:   I što si napis'o?";
+			var e = "Marko: ''1/2 '' na što se uciteljica razbjesnila";
+			var zbroj = a + b + c + d + e;
+			var n = zbroj.length;
+			document.getElementById("misc").innerHTML = n;*/
+		/*6*/
+			var a = "neka string vrijednost!";
+			var text = a.toUpperCase();
+			//document.getElementById("misc").innerHTML = text;
+		/*7*/
+			var a = "Ovdje Su Sva Slova Mala!";
+			var text = a.toLowerCase();
+			//document.getElementById("misc").innerHTML = text;
+		/*8*/
+			var a = "Ovo je JavaScript zadatak!";
+			var text = a.search("a");
+			//document.getElementById("misc").innerHTML = text;
+		/*9*/
+			var a = "Ovo je JavaScript zadatak!";
+			var text = a.lastIndexOf("a");
+			//document.getElementById("misc").innerHTML = text;
+		/*10*/
+			var a = "Dobro vecer!"
+			var text = a.replace("vecer!","jutro!");
+			//document.getElementById("misc").innerHTML = text;
+		/*11*/
+			var a = "Ovo je JavaScript zadatak!";
+			var rez = a.charAt(0);
+			//document.getElementById("misc").innerHTML = rez;
+		/*12*/
+			var a = "Trece slovo JavaScript zadatak";
+			var rez = a.charAt(2);
+			//document.getElementById("misc").innerHTML = rez;
+		/*13*/
+			var a = "Ovo je JavaScript zadatak";
+			var rez = a.charAt(a.length-1);
+			//document.getElementById("misc").innerHTML = rez;
+		/*14*/
+			var a = "Ovo je JavaScript zadatak";
+			var rez = a.substr(3,8);
+			//document.getElementById("misc").innerHTML = rez;
+		/*15*/
+			var a = "Ovo je JavaScript zadatak";
+			var rez = a.substring(3,8);
+			//document.getElementById("misc").innerHTML = rez;
+		/*16*/
+			/*var a = "Zoveš se :";
+			var b = prompt("Upišite Vaše ime");
+			var c = a + b;
+			document.getElementById("misc").innerHTML = a + " " + b;*/
+		/*17*/
+			var a = 3;
+			var b = 4;
+			var c = a + b;
+			//alert(c);
+		/*18*/
+			var a = 2.13;
+			var b = 4;
+			var c = a * b;
+			//document.getElementById("misc").innerHTML = c;
+			//document.write("Umnozak je decimalni");
+		/*19*/
+			/*var a = prompt("Upišite broj");
+			var b = ++a;
+			document.getElementById("misc").innerHTML = b;*/
+		/*20*/
+			var a = 5;
+			var b = --a;
+			//document.getElementById("misc").innerHTML = b;
+		/*21 NISAM SIGURAN*/
+			/*var a = 5;
+			var a = a + 10 ;
+			console.log(a);
+			var a = 5;
+			a += 10;
+			console.log(a);*/
+		/*22 NISAM SIGURAN*/
+			/*var a = 15;
+			var a = a - 10;
+			console.log(a);
+			var a = 15;
+			a -= 10;
+			console.log(a);*/
+		/*23 NISAM SIGURAN*/
+			/*var r = 5;
+			var r = r*3.14;
+			console.log(r);
+			var r = 5;
+			r *= 3.14;
+			console.log(r);*/
+		/*24*/
+			/*- Definirajte varijablu a. Definirajte joj neku vrijednost. Ispišite koja je
+			sljedeca (za jedan veca) vrijednost varijable a te pritom pazite da samoj
+			varijabli ne promjenite vrijednost (pomocu jedne naredbe, na oba nacina)
+
+			- Definirajte varijablu a. Definirajte joj neku vrijednost. Ispišite koja je
+			prethodna (za jedan manja) vrijednost varijable a te pritom pazite da samoj
+			varijabli ne promjenite vrijednost (pomocu jedne naredbe, na oba nacina)*/
+			/* NOTE: Ne razumijem ove zadatke ' na oba načina ' tako da cu ih preskociti za sad..*/
+		/*26*/
+			var a = 15;
+			var b = 10;
+			var c = a/b;
+			//document.getElementById("misc").innerHTML = c;
+		/*27*/
+			var a = 20;
+			var b = 5;
+			var c = a/b;
+			//document.getElementById("misc").innerHTML = c;
+		/*28*/
+			/*var a = prompt();
+			document.getElementById("misc").innerHTML = a;*/
+		/*29*/
+			/*var a = +prompt();
+			var b = +prompt();
+			var rez = a+b;
+			//document.getElementById("misc").innerHTML = rez;*/
+		/*30*/
+			/*var a = prompt();
+			var b = a ** 2;
+			document.getElementById("misc").innerHTML = b;
+			*/
+		/*31*/
+			/*var a = prompt();
+			var b = a / 0.254;
+			var c = b.toPrecision(2); ;
+			document.getElementById("misc").innerHTML = c;*/
+		/*32*/
+			/*var a = prompt();
+			var b = a / 0.367;
+			var c = b.toFixed(0); ;
+			document.getElementById("misc").innerHTML = c;*/
+		/*33*/
+			//document.getElementById("misc").innerHTML = Math.random();
+		/*34*/
+			/*var a = 10;
+			document.getElementById("misc").innerHTML = Math.sqrt(a);*/
+		/*35*/
+			/*var a = prompt();
+			if (a >= '0' && a <= '9') {
+				document.getElementById("misc").innerHTML = a + " " + "je broj";
+			}
+			else{
+				document.getElementById("misc").innerHTML = "Unesite broj";
+			}*/
+		/*36*/
+			//document.getElementById("misc").innerHTML = Boolean(4<5);
+		/*37*/
+			//document.getElementById("misc").innerHTML = Boolean(4>5);
+		/*38*/
+			/*var marke = [""];
+			document.getElementById("misc").innerHTML = marke;*/
+		/*39* Ne razumijem oba nacina/
+			/*var array = ["Audi"];
+			var array = ["BMW"];
+			var array = ["Mercedes"];
+			var array = ["Volvo"];
+			var array = ["Fiat"];
+			document.getElementById("misc").innerHTML = array;*/
+		/*40* Ne razumijem oba nacina/
+		/*41*/
+			/*var array = ["Audi", "BMW","Fiat","Mazda"];
+			array.push("Volvo");
+			document.getElementById("misc").innerHTML = array;*/
+		/*42*/
+			/*var array = ["Audi", "BMW","Fiat","Mazda"];
+			array[0] = "Opel";
+			array[1] = "Audi";
+			array[2] = "BMW";
+			array[3] = "Fiat";
+			array[4] = "Mazda";
+			document.getElementById("misc").innerHTML = array;*/
+		/*43*/
+			/*var array = ["Nokia", "Samsung", "Xiaomi", "Motorola"];
+			var zadnji = array[array.length-1];
+			document.getElementById("misc").innerHTML = zadnji;*/
+		/*44*/
+			/*var array = ["Nokia", "Samsung", "Xiaomi", "Motorola"];
+			var prvi = array[0];
+			document.getElementById("misc").innerHTML = prvi*/
+		/*45*/
+			/*var array = ["Audi", "BMW", "Fiat", "Mazda"];
+			var odabrano = array.slice(1, 3);
+			document.getElementById("misc").innerHTML = odabrano;*/
+		/*46*/
+			/*var array = ["Audi", "BMW", "Fiat", "Mazda"];
+			var odabrano = array.splice(1, 2);
+			document.getElementById("misc").innerHTML = array;*/
+		/*47*/
+			/*var array = ["Audi", "BMW", "Fiat", "Mazda"];
+			array.sort();
+			document.getElementById("misc").innerHTML = array;*/
+		/*48*/
+			/*var array = ["Audi", "BMW", "Fiat", "Mazda"];
+			var temp = array[0]
+			array[0] = array[3];
+			array[3] = temp;
+			document.getElementById("misc").innerHTML = array;*/
+		/*49*/
+			/*var array = ["Audi", "BMW", "Fiat", "Mazda"];
+			array.reverse();
+			document.getElementById("misc").innerHTML = array;*/
+		/*50*/
+			/*var array = ["Audi", "BMW", "Fiat", "Mazda"];
+			array.pop();
+			document.getElementById("misc").innerHTML = array;*/
+		/*51*/
+			/*var array = ["Game of Thrones", "The Walking Dead", "The Witcher", "Attack on Titan"];
+			document.getElementById("zad51").innerHTML = "Moja najdraza serija je:";
+			document.getElementById("misc").innerHTML = array;*/
+		/*52*/
+			/*var array = ["Game of Thrones", "The Walking Dead", "The Witcher", "Attack on Titan"];
+			document.getElementById("misc").innerHTML = array.length;*/
+		/*53*/
+			/*var array = ["Game of Thrones", "The Walking Dead", "The Witcher", "Attack on Titan"];
+			var zadnji = array[array.length-1];
+			document.getElementById("misc").innerHTML = zadnji;*/
+		/*54*/
+			/*var array = ["Game of Thrones", "The Walking Dead", "The Witcher", "Attack on Titan"];
+			var zadnji = array.length;
+			document.getElementById("misc").innerHTML = zadnji;*/
+		/*55*/
+			/*var a = 5;
+			var b = prompt();
+			if (b<5){
+				alert("Unijeli ste broj manji od 5, bravo!");
+			}
+			else {
+				alert("Unijeli ste broj veci ili jednak od 5, pokušajte ponovo!")
+			}*/
+		/*56*/
+			/*var a = 5;
+			var b = prompt();
+			if (b>5){
+				alert("Unijeli ste broj veci od 5, bravo!");
+			}
+			else {
+				alert("Unijeli ste broj manji ili jednak od 5, pokušajte ponovo!")
+			}*/
+		/*57*/
+			/*function izmedu(a, min, max) {
+				var a = Math.random();
+				document.getElementById("misc").innerHTML = a;
+				return a >= min && a <= max;
+			} if (izmedu(a, 0.25, 0.26)) {
+				alert("Varijabla je izmedu 0.25 i 0.26");
+			} else if (izmedu(a, 0.5, 0.51)) {
+				alert("Varijabla je izmedu 0.5 i 0.51");
+			} else if (izmedu(a, 0.75, 0.76)) {
+				alert("Varijabla je izmedu 0.75 i 0.76");
+			}*/
+		/*58*/
+			/*var a = prompt();
+			if (a<=0) {
+				document.getElementById("misc").innerHTML = "Niste upisali pozitivan broj";
+			}else {
+				document.getElementById("misc").innerHTML = "Unijeli ste pozitivan broj";
+			}*/
+		/*59*/
+			/*var a = prompt();
+			if (a>=1 && a<=10){
+				document.getElementById("misc").innerHTML = a;
+			}else {
+				document.getElementById("misc").innerHTML = "Uneseni broj nije u rasponu od 1-10";
+			}*/
+		/*60*/
+			/*var a = prompt("Najdraze marke obuce");
+			var odg;
+			switch(a) {
+				case "Nike":
+					odg = "Dobar odabir!";
+					break;
+				case "Adidas":
+					odg = "Dobar odabir!";
+					break;
+				case "Puma":
+					odg = "Dobar odabir!";
+					break;
+				case "Reebok":
+					odg = "Dobar odabir!";
+					break;
+				default:
+					odg ="Pokušajte nešto popularnije"
+			}
+			document.getElementById("misc").innerHTML = odg;*/
+	</script> 
+</body>
+</html>
